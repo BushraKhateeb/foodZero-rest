@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-dark sticky-top top bg-maincolor py-4">
+        <div class="container p-0">
+            <a class=" navbar-brand p-0 m-0 " href="#"><img src="./assets/img/home/logo/Logo.png"
+                    class="logo w-80" /></a>
+
+            <button type="button" class=" btn btn-outline-light fs-4 border border-0" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <i class=" fa-solid fa-bars"></i>
+            </button>
+            <div class="reserve d-flex justify-content-center align-items-center text-end ms-auto">
+                <p class="text-white px-5 pt-1 mb-0 fs-4 text-end">+86 852 346 000</p>
+                <button type="button" class="butt btn btn-outline-light fs-4 text-end border-3">Reservations</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--navigation menu modal-->
+    <div class=" modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen ">
+            <div class="menu-modal-content modal-content bg-maincolor ">
+                <div class="modal-body pb-5 pt-3">
+                    <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row ">
+                    <div class="col-1"></div>
+                    <div class="col-md-5">
+                        <div class="bages py-lg-4 ">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-white pb-3 ">
+                                <li class="nav-item d-flex align-items-center pb-2">
+                                    <i class="fa-solid fa-circle fa-2xs me-2"></i>
+                                    <a class="nav-link active fw-bolder text-uppercase fs-2 " aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center py-2">
+                                    <i class="fa-solid fa-circle fa-2xs me-2"></i>
+                                    <a class="nav-link  fw-bolder text-uppercase fs-2 " aria-current="page"
+                                        href="#">Menu</a>
+                                </li>
+                                <li class="nav-item d-flex flex-column align-items-start text-seccolor py-2">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-solid fa-circle fa-2xs me-2"></i>
+                                        <a class="nav-link fw-bolder text-uppercase fs-2 pb-0" href="#">Blogs</a>
+                                    </div>
+                                    <ul class="ps-4 mt-2 list-unstyled pt-0 text-white">
+                                        <li>1 Column</li>
+                                        <li>2 Columns</li>
+                                        <li>Sidebar Post</li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item d-flex align-items-center py-2">
+                                    <i class="fa-solid fa-circle fa-2xs me-2"></i>
+                                    <a class="nav-link fw-bolder text-uppercase fs-2 " aria-current="page"
+                                        href="#">About</a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center py-3">
+                                    <i class="fa-solid fa-circle fa-2xs me-2"></i>
+                                    <a class="nav-link  fw-bolder text-uppercase fs-2 " aria-current="page"
+                                        href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-md-5 d-flex flex-column align-items-center ">
+                        <div class="empty">
+
+                        </div>
+                        <div class="contact py-2 text-white">
+                            <div>
+                                <p class="py-2">contact</p>
+                            </div>
+                            <div class="py-2">
+                                <span class="lh-sm">+1+86 852 346 000
+                                </span><br />
+                                <span>info@foodzero.com </span>
+                            </div>
+                            <div class="py-2">
+                                <span class="lh-sm">1959 Sepulveda Blvd.
+                                </span><br />
+                                <span>Culver City, CA, 90230</span>
+
+                            </div>
+                            <div class="social-media-icons py-2 ">
+                                <a href="#" class="text-white"><i class="fa-brands fa-instagram px-2 fa-lg"></i></a>
+                                <a href="#" class="text-white"><i class="fa-brands fa-twitter px-2 fa-lg"></i></a>
+                                <a href="#" class="text-white"><i class="fa-brands fa-facebook px-2 fa-lg"></i></a>
+                                <a href="#" class="text-white"><i class="fa-brands fa-youtube px-2 fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--header two parts-->
+    <header class="header bg-maincolor">
+        <div class="container">
+            <div class="top-header text-white py-5 position-relative">
+                <div class="top-header-text">
+                    <h1 class="w-80">Healthy Eating
+                        is important
+                        part of lifestyle</h1>
+                    <p class="w-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu</p>
+                    <p class="vertical  pt-lg-5">scroll--------------------------</p>
+                </div>
+                <div class="top-header-main-photo position-absolute">
+                    <img src="./assets/img/home/header/steak(main).png"
+                        alt="steak one of the most famouse dishes in zero food resturent " class="w-80" />
+                </div>
+                <div class="top-header-sec-photo position-absolute w-50">
+                    <img src="./assets/img/home/header/3spices.png"
+                        alt="steak one of the most famouse dishes in zero food resturent " class="w-100" />
+                </div>
+            </div>
+            <div class="empty"></div>
+            <div class="bottom-header text-white py-5">
+                <div class="row">
+                    <div class="col-md-6 py-lg-3 ">
+                        <div class="bottom-header-start ">
+                            <img src="./assets/img/home/header/soup(start).png" alt="sea soup" class="w-100" />
+                            <h2 class="py-3">Start to plan your diet today</h2>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 py-3"></div>
+                    <div class="col-md-4 py-3">
+                        <div class="bottom-header-end">
+                            <p class="pb-xl-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue
+                                arcu</p>
+                            <img src="./assets/img/home/header/2spices(end).png" alt="spaices we used" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--menu section-->
+    <section class="menu pb-5 position-relative ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 py-5 ">
+                    <div class="menu-title pt-5">
+                        <h2 class="text-uppercase pt-5">Our Menu</h2>
+                        <p class="w-50">This is a section of your menu. Give your section a brief description</p>
+                    </div>
+                    <img src="./assets/img/home/menu/leaf-effect.png" alt="leaf effect"
+                        class="leaf-effect position-absolute w-40" />
+                </div>
+
+                <div class="col-lg-6 py-4">
+                    <div class="menu-item">
+                        <div class="dish-price d-flex justify-content-between">
+                            <span>&nbsp;</span>
+                            <span class="fs-3 fw-bold"> $20</span>
+                        </div>
+                        <div class="dish-details">
+                            <h3 class="dish-name text-capitalize py-2">Deep Sea Snow White Cod Fillet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-4">
+                    <div class="menu-item">
+                        <div class="dish-price d-flex justify-content-between">
+                            <span>&nbsp;</span>
+                            <span class="fs-3 fw-bold"> $22</span>
+                        </div>
+                        <div class="dish-details">
+                            <h3 class="dish-name text-capitalize py-2">Steak With Rosemary Butter</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-4">
+                    <div class="menu-item">
+                        <div class="dish-price d-flex justify-content-between">
+                            <span>&nbsp;</span>
+                            <span class="fs-3 fw-bold"> $18</span>
+                        </div>
+                        <div class="dish-details">
+                            <h3 class="dish-name text-capitalize py-2">Cucumber Salad</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-4">
+                    <div class="menu-item">
+                        <div class="dish-price d-flex justify-content-between">
+                            <span>&nbsp;</span>
+                            <span class="fs-3 fw-bold"> $90</span>
+                        </div>
+                        <div class="dish-details">
+                            <h3 class="dish-name text-capitalize py-2">Natural Wine Pairing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--excelant cook-->
+    <section class="excelant-cook position-relative pt-5 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-lg-5 py-5">
+                    <div class="excelant-cook-img">
+                        <img src="./assets/img/home/excelent-cook/chef.png" alt="chef cook a selamon dish"
+                            class="chef img-fluid w-100" />
+                        <div class="leaf-effect-start">
+                            <img src="./assets/img/home/excelent-cook/leaf(start).png" alt="leaf effect"
+                                class=" img-fluid w-75" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-lg-5 py-5">
+                    <div class="excelant-cook-contant">
+                        <h2 class=" pt-5 w-50">Excellent Cook</h2>
+                        <p class="w-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id
+                            penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. </p>
+                    </div>
+                    <div class="leaf-effect-end">
+                        <img src="./assets/img/home/excelent-cook/leaf(end).png" alt="leaf effect" class="w-65" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--characteristic-->
+    <section class="characteristic py-5 text-center">
+        <div class="container">
+            <div class="row g-lg-4">
+                <div class="col-md-4">
+                    <div class="characteristic-item px-4 py-5">
+                        <img src="./assets/img/home/charastaristic/Premium Quality.png"
+                            alt="first characteristic Premium Quality" class=" bg-gray rounded-circle w-50 p-3" />
+                        <h3>Premium Quality</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="characteristic-item px-4 py-5">
+                        <img src="./assets/img/home/charastaristic/Seasonal Vegetables.png"
+                            alt="first characteristic Premium Quality" class=" bg-gray rounded-circle w-50 p-3" />
+                        <h3>Seasonal Vegetables</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="characteristic-item px-4 py-5">
+                        <img src="./assets/img/home/charastaristic/Fresh Fruit.png"
+                            alt="first characteristic Premium Quality" class=" bg-gray rounded-circle w-50 p-3" />
+                        <h3>Fresh Fruit</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--cooming soon-->
+    <section class="coming-soon text-center text-white">
+        <div class="container">
+            <h2 class="text-capitalize fw-bold">coming soon</h2>
+            <div class="all-still flex-wrap">
+                <div class="still-time d-flex flex-column  flex-wrap">
+                    <span class="month-no fs-1"></span>
+                    <span class="time-name ">Months</span>
+                </div>
+                <div class="still-time d-flex flex-column flex-wrap">
+                    <span class="day-no fs-1"></span>
+                    <span class="time-name ">Days</span>
+                </div>
+                <div class="still-time d-flex flex-column  flex-wrap">
+                    <span class="hour-no fs-1"></span>
+                    <span class="time-name">Hours</span>
+                </div>
+                <div class="still-time d-flex flex-column  flex-wrap">
+                    <span class="minute-no fs-1"></span>
+                    <span class="time-name">Minutes</span>
+                </div>
+                <div class="still-time d-flex flex-column  flex-wrap">
+                    <span class="secound-no fs-1"></span>
+                    <span class="time-name">Second</span>
+                </div>
+            </div>
+            <button class="butt bg-transparent border border-3 border-white m-4 text-white">View Menu</button>
+        </div>
+    </section>
+
+    <!--blog-->
+    <section class="blogs py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pb-5">
+                    <div class="blog">
+                        <div class="card rounded-0">
+                            <img src="./assets/img/blogs/blog1.jpg" class="card-img-top"
+                                alt="Fruit and vegetables and protection against diseases blog bage color">
+                            <div class="card-body ">
+                                <div class="blog-details text-seccolor pb-3">
+                                    <img src="./assets/img/blogs/blogger1.png" class="w-10"
+                                        alt="Julie Christie Fruit and vegetables and protection against diseases blog writter " />
+                                    <span>Julie Christie </span><span class="dot">&#183;</span>
+                                    <span>October 17,2021</span><span class="dot">&#183;</span>
+                                    <span>3:33 pm</span><span class="dot">&#183;</span>
+                                    <span>2 comments</span>
+                                </div>
+                                <div class="blog-title ">
+                                    <h3 class="card-title">Fruit and vegetables and protection against diseases</h3>
+                                </div>
+                                <div class="blog-summary pt-3">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                                <div class="read-more pb-3 pt-5 ">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="fs-4 text-black">
+                                        Read More <i class="fa-solid fa-arrow-right text-seccolor"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="blog">
+                        <div class="card rounded-0">
+                            <img src="./assets/img/blogs/blog2.jpg" class="card-img-top"
+                                alt="Asparagus Spring Salad with Rocket, Goat's Cheese blog bage cover">
+                            <div class="card-body ">
+                                <div class="blog-details text-seccolor pb-3">
+                                    <img src="./assets/img/blogs/blogger2.png" class="w-10"
+                                        alt="Julie Christie Asparagus Spring Salad with Rocket, Goat's Cheese blog writter " />
+                                    <span>Dianne Russell </span><span class="dot">&#183;</span>
+                                    <span>October 17,2021</span><span class="dot">&#183;</span>
+                                    <span>3:33 pm</span><span class="dot">&#183;</span>
+                                    <span>2 comments</span>
+                                </div>
+                                <div class="blog-title ">
+                                    <h3 class="card-title">Asparagus Spring Salad with Rocket, Goat's Cheese</h3>
+                                </div>
+                                <div class="blog-summary pt-3">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                                <div class="read-more pb-3 pt-5 ">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop1" class="fs-4 text-black">
+                                        Read More <i class="fa-solid fa-arrow-right text-seccolor"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--blog modal-->
+    <div class="blog-modal">
+        <div class=" modal1 modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-md-down">
+                <div class="modal-content text-center bg-gray ">
+                    <div class="modal-header  p-4 align-items-center">
+                        <h1 class="modal-title fs-3 text-maincolor" id="staticBackdropLabel">Fruit and vegetables and
+                            protection
+                            against diseases </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <img src="./assets/img/blogs/blog1.jpg"
+                            alt="Fruit and vegetables and protection against diseases blog" class="w-50 pb-5" />
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sed veniam amet consectetur
+                            corrupti.
+                            Maiores ea quo architecto corrupti ipsam eos voluptatibus, perferendis alias iste, accusamus
+                            dignissimos voluptatum
+                            perspiciatis tempore reiciendis soluta nobis quaerat maxime magni adipisci rerum quas! Illum
+                            iste maiores nobis
+                            architecto minus. Dolor voluptatem alias nostrum doloremque iste magnam ullam exercitationem
+                            numquam omnis, in, totam vel non.
+                            Enim doloribus minus rem quis, facere ipsam consequuntur labore aspernatur iusto delectus id
+                            quaerat possimus illo, impedit
+                            recusandae sequi aut reprehenderit incidunt doloremque iste! Eos ipsum architecto, quo
+                            nostrum voluptates veritatis iure deleniti
+                            alias et expedita reiciendis odio illum molestiae animi doloremque vitae. Dolorem ipsum
+                            incidunt quod architecto cumque. Exercitationem
+                            debitis animi ipsum repellendus! Velit fugit voluptas voluptatum? Amet, sint eveniet!
+                            Asperiores voluptates animi excepturi facilis molestiae
+                            ipsam exercitationem laboriosam illum labore minus debitis, doloremque explicabo eos eum
+                            cumque? Molestias id quas vero deserunt laudantium
+                            praesentium sint odit nesciunt eaque veritatis, atque quasi esse excepturi fuga dolor. Amet
+                            incidunt tenetur error quae suscipit ratione repellat
+                            nihil saepe! Molestiae voluptate aspernatur officiis. Accusantium ex illum facilis aliquam
+                            iste et! Vitae quae maxime quisquam, sed itaque, nostrum
+                            reprehenderit officia dolore atsunt nulla veniam ex omnis neque voluptatibus unde doloribus
+                            exercitationem officiis expedita velit molestias inventore!
+                            Est veritatis quis quas aliquid laborum architecto culpa quaerat. Tempore quod aperiam
+                            repellat recusandae beatae animi nisi consequuntur fuga quia voluptas
+                            veniam, aliquid repellendus? Facere similique exercitationem, doloribus molestiae explicabo,
+                            laudantium voluptatum corrupti corporis eaque odit repudiandae
+                            distinctio debitis iste sunt quod quam. Reiciendis ducimus provident porro. Unde, fugit vel?
+                            Minus odio nesciunt veritatis tempore earum quibusdam? Suscipit
+                            tempora aut aliquam exercitationem atque facilis cumque repellendus totam modi commodi! Amet
+                            quis accusamus provident! Saepe maxime aspernatur, quisquam
+                            dignissimos alias tenetur ex accusamus. Quaerat, nam officiis ut debitis, dolorum quas ipsa
+                            porro consequatur aspernatur amet et veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" modal1 modal fade " id="staticBackdrop1" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-md-down">
+                <div class="modal-content text-center bg-gray ">
+                    <div class="modal-header  p-4 align-items-center">
+                        <h1 class="modal-title fs-3 text-maincolor" id="staticBackdropLabel">Asparagus Spring Salad with
+                            Rocket, Goat's Cheese </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <img src="./assets/img/blogs/blog2.jpg"
+                            alt="Asparagus Spring Salad with Rocket, Goat's Cheese blog" class="w-50 pb-5" />
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sed veniam amet consectetur
+                            corrupti.
+                            Maiores ea quo architecto corrupti ipsam eos voluptatibus, perferendis alias iste, accusamus
+                            dignissimos voluptatum
+                            perspiciatis tempore reiciendis soluta nobis quaerat maxime magni adipisci rerum quas! Illum
+                            iste maiores nobis
+                            architecto minus. Dolor voluptatem alias nostrum doloremque iste magnam ullam exercitationem
+                            numquam omnis, in, totam vel non.
+                            Enim doloribus minus rem quis, facere ipsam consequuntur labore aspernatur iusto delectus id
+                            quaerat possimus illo, impedit
+                            recusandae sequi aut reprehenderit incidunt doloremque iste! Eos ipsum architecto, quo
+                            nostrum voluptates veritatis iure deleniti
+                            alias et expedita reiciendis odio illum molestiae animi doloremque vitae. Dolorem ipsum
+                            incidunt quod architecto cumque. Exercitationem
+                            debitis animi ipsum repellendus! Velit fugit voluptas voluptatum? Amet, sint eveniet!
+                            Asperiores voluptates animi excepturi facilis molestiae
+                            ipsam exercitationem laboriosam illum labore minus debitis, doloremque explicabo eos eum
+                            cumque? Molestias id quas vero deserunt laudantium
+                            praesentium sint odit nesciunt eaque veritatis, atque quasi esse excepturi fuga dolor. Amet
+                            incidunt tenetur error quae suscipit ratione repellat
+                            nihil saepe! Molestiae voluptate aspernatur officiis. Accusantium ex illum facilis aliquam
+                            iste et! Vitae quae maxime quisquam, sed itaque, nostrum
+                            reprehenderit officia dolore atsunt nulla veniam ex omnis neque voluptatibus unde doloribus
+                            exercitationem officiis expedita velit molestias inventore!
+                            Est veritatis quis quas aliquid laborum architecto culpa quaerat. Tempore quod aperiam
+                            repellat recusandae beatae animi nisi consequuntur fuga quia voluptas
+                            veniam, aliquid repellendus? Facere similique exercitationem, doloribus molestiae explicabo,
+                            laudantium voluptatum corrupti corporis eaque odit repudiandae
+                            distinctio debitis iste sunt quod quam. Reiciendis ducimus provident porro. Unde, fugit vel?
+                            Minus odio nesciunt veritatis tempore earum quibusdam? Suscipit
+                            tempora aut aliquam exercitationem atque facilis cumque repellendus totam modi commodi! Amet
+                            quis accusamus provident! Saepe maxime aspernatur, quisquam
+                            dignissimos alias tenetur ex accusamus. Quaerat, nam officiis ut debitis, dolorum quas ipsa
+                            porro consequatur aspernatur amet et veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--reservation-->
+    <section class="reservation text-center bg-gray py-5">
+        <div class="container py-5">
+            <div class="py-5">
+                <h2 class="text-black">Make a Reservation</h2>
+                <p>Get in touch with restaurant</p>
+            </div>
+            <div class="row py-5">
+
+                <div class="col-lg-3 pt-3 pb-4">
+                    <div class="reservation-date">
+                        <input type="date" value="2025-5-25" required
+                            class="px-5 py-3 fs-5 border border-dark border-3 bg-gray">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 pt-3 pb-4">
+                    <div class="reservation-time">
+                        <input type="time" value="6:00pm" required
+                            class="px-5 py-3 fs-5 border border-dark border-3 bg-gray">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4 pt-3 pb-4">
+                    <div class="reservation no">
+                        <select
+                            class="form-select form-select-lg mb-3 px-5 py-3 fs-5 rounded-0 border border-dark border-3 bg-gray"
+                            aria-label="Large select example"
+                            class="px-5 py-3 fs-5 border border-dark border-3  bg-gray" required>
+                            <option selected>Open this select menu</option>
+                            <option value="1">1 person</option>
+                            <option value="2" selected>2 person</option>
+                            <option value="3">3 person</option>
+                            <option value="4">4 person</option>
+                            <option value="5">5 person</option>
+                            <option value="6">6 person</option>
+                            <option value="7">7 person</option>
+                            <option value="8">8 person</option>
+                            <option value="9">9 person</option>
+                            <option value="10">+10 person</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class=" btn butt rounded-0 border border-dark border-3 btn bg-maincolor  fs-4"
+                id="liveToastBtn">Book Now</button>
+        </div>
+    </section>
+
+    <!--booking toast-->
+    <div class="book-toast">
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="./assets/img/home/logo/Logo.png" class="rounded me-2 w-25 bg-maincolor p-2"
+                        alt="resturent logo">
+                    <strong class="me-auto"></strong>
+                    <small>now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p>You have already booked<br> Thank you for choosing <span class=" fw-medium text-maincolor">
+                            FOODZERO</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--menu categories-->
+    <section class="menu-categories py-5 text-center">
+        <div class="container  py-5">
+            <h2 class="text-black">Calories Energy Balance</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div class="row ">
+                <div class="col-lg-4 py-5">
+                    <div class="card-cover position-relative">
+                        <img src="./assets/img/menu/starters.png" alt="cover of starters menu"
+                            class="w-100 card-img-top">
+                        <div class="card-title position-absolute">
+                            <h3 class="fs-1 text-capitalize text-seccolor">starters</h3>
+                        </div>
+                        <div class="card-arrow position-absolute">
+                            <i class="fa-solid fa-arrow-right fa-2xl text-seccolor"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <div class="card-cover position-relative">
+                        <img src="./assets/img/menu/mains.png" alt="cover of mains menu" class="w-100 card-img-top">
+                        <div class="card-title position-absolute">
+                            <h3 class="fs-1 text-capitalize text-seccolor">mains</h3>
+                        </div>
+                        <div class="card-arrow position-absolute">
+                            <i class="fa-solid fa-arrow-right fa-2xl text-seccolor"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <div class=" card-cover position-relative">
+                        <img src="./assets/img/menu/soups.png" alt="cover of soups menu" class="w-100 card-img-top">
+                        <div class="card-title position-absolute">
+                            <h3 class="fs-1 text-capitalize text-seccolor">soups</h3>
+                        </div>
+                        <div class="card-arrow position-absolute">
+                            <i class="fa-solid fa-arrow-right fa-2xl text-seccolor"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--feedback-->
+    <section class="feedback p-5">
+        <div class="container px-5">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active py-5">
+                        <div class="feedback-text ">
+                            <p class="fs-1 text-black w-80">“ Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Purus lorem id penatibus imperdiet. Turpis
+                                egestas ultricies purus Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="feedback-indecators py-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="feedback-img">
+                                        <img src="./assets/img/home/feedback/feedbak1.png" class="d-block w-75"
+                                            alt="John Doe photo">
+                                    </div>
+                                </div>
+                                <div class="col-2 d-flex align-items-center">
+                                    <p class="lh-sm fs-2 text-black">John Doe <br> <span
+                                            class="fs-5 text-highgray">Bloger</span></p>
+                                </div>
+                                <div class="col-6"></div>
+                                <div class="col-2 d-flex align-items-center">
+                                    <button class="carousel-control-prev position-absolute" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon text-maincolor"><i
+                                                class="fa-solid fa-arrow-left fa-xl"></i></span>
+                                    </button>
+                                    <p class="ff-main text-black fs-3"><br>1/3</p>
+                                    <button class="carousel-control-next text-maincolor" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon text-maincolor"><i
+                                                class="fa-solid fa-arrow-right fa-xl"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active py-5">
+                        <div class="feedback-text position-relative">
+                            <p class="fs-1 text-black w-80">“ Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Purus lorem id penatibus imperdiet. Turpis
+                                egestas ultricies purus Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="feedback-indecators py-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="feedback-img">
+                                        <img src="./assets/img/home/feedback/feedback2.png" class="d-block w-75"
+                                            alt="Julie Christie photo">
+                                    </div>
+                                </div>
+                                <div class="col-2 d-flex align-items-center">
+                                    <p class="lh-sm fs-2 text-black">Julie Christie <br> <span
+                                            class="fs-5 text-highgray">Bloger</span></p>
+                                </div>
+                                <div class="col-6"></div>
+                                <div class="col-2 d-flex align-items-center">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon text-maincolor"><i
+                                                class="fa-solid fa-arrow-left fa-xl"></i></span>
+                                    </button>
+                                    <p class="ff-main text-black fs-3"><br>2/3</p>
+                                    <button class="carousel-control-next text-maincolor" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon text-maincolor"><i
+                                                class="fa-solid fa-arrow-right fa-xl"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active py-5">
+                        <div class="feedback-text position-relative">
+                            <p class="fs-1 text-black w-80">“ Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Purus lorem id penatibus imperdiet. Turpis
+                                egestas ultricies purus Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="feedback-indecators py-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="feedback-img">
+                                        <img src="./assets/img/home/feedback/feedback3.png" class="d-block w-75"
+                                            alt="Dianne Russell photo">
+                                    </div>
+                                </div>
+                                <div class="col-2 d-flex align-items-center">
+                                    <p class="lh-sm fs-2 text-black">Dianne Russell<br> <span
+                                            class="fs-5 text-highgray">Bloger</span></p>
+                                </div>
+                                <div class="col-6"></div>
+                                <div class="col-2 d-flex align-items-center"">
+                                        <button class=" carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon text-maincolor"><i
+                                            class="fa-solid fa-arrow-left fa-xl"></i></span>
+                                    </button>
+                                    <p class="ff-main text-black fs-3"><br>3/3</p>
+                                    <button class="carousel-control-next text-maincolor" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon text-maincolor"><i
+                                                class="fa-solid fa-arrow-right fa-xl"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer bg-maincolor text-white py-5">
+        <div class="contant pt-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-2 py-4 ff-main">
+                        <a class="name-link text-white">Food<br>Zero.</a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-2">
+                        <div>
+                            <p class="py-2 fs-2 ff-main">contact</p>
+                        </div>
+                        <div class="py-2 ">
+                            <span class="lh-sm ff-sec">+1+86 852 346 000
+                            </span><br />
+                            <span class="ff-sec">info@foodzero.com </span>
+                        </div>
+                        <div class="py-2">
+                            <span class="lh-sm ff-sec">1959 Sepulveda Blvd.
+                            </span><br />
+                            <span class="ff-sec">Culver City, CA, 90230</span>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                        <p class="fs-2 py-2 ff-main">Never Miss a Recipe</p>
+                        <div class="Subscribe-field  d-flex align-items-center gap-3 flex-nowrap ">
+                            <input type="email" required
+                                class="px-5 py-3 fs-5 bg-maincolor border-white text-white w-80 ff-sec"
+                                placeholder="Email Address">
+                            <button type="button"
+                                class="bg-seccolor text-white rounded-0  btn bg-maincolor  fs-4 px-4 py-2  ff-main">Subscribe</button>
+                        </div>
+                        <p class="ff-sec">Join our subscribers and get best recipe delivered each week!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-footer pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="copy-right">
+                            <p>&copy; 2020 Zero Inc. All rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-3">
+                        <div class="social-media-icons py-2 ">
+                            <a href="#" class="text-white"><i class="fa-brands fa-instagram px-2 fa-xl"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-twitter px-2 fa-xl"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-facebook px-2 fa-xl"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-youtube px-2 fa-xl"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

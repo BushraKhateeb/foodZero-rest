@@ -1,0 +1,470 @@
+@import './basic.css';
+/* start navbar*/
+.logo-img{
+    width: 250px;
+}
+.offcanvas-body{
+height: fit-content;
+}
+nav .container{
+    justify-content: flex-start !important;
+}
+.offcanvas{
+    height: 100vh;
+    overflow: hidden;
+}
+.empty{
+    height: 215px;
+}
+.navbar button:first-of-type:hover {
+        background-color:var(--seccolor);
+    border-color: black;
+    border: black 2px solid;
+    font-weight: 500;
+}
+.contact span{
+    font-size: 14px;
+}
+.menu-modal-content{
+    position: relative;
+    background: url('./../img/small-parts/navigation.png') center/cover no-repeat;
+    height: 100vh;
+}
+
+.menu-modal-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 48, 0, 0.8); 
+    z-index: 1;
+}
+
+.modal-body,
+.bages,
+.contact {
+    position: relative;
+    z-index: 2; 
+}
+.modal-body {
+    flex: unset !important;
+}
+.contact p{
+    border-bottom: white dashed 2px;
+}
+.scrolly{
+    background-color:#1a2400;
+}
+
+@media screen and (max-width:992px) {
+    .reserve{
+        display: none !important;
+    }
+    .logo{
+        width: 70%;
+    }
+    .bage-menu{
+        margin-left: auto;
+    }
+    .navbar button:first-of-type{
+        margin-left: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .logo{
+        width: 40%;
+    }
+    .bages{
+        margin: auto;
+    }
+    .empty{
+        height: 70px;
+    }
+    .bages .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:576px) {
+    .navbar{
+        padding: 20px;
+    }
+    .navbar .navbar-brand {
+        width: 80%;
+    }
+}
+/* end navbar*/
+/* start header*/
+.header{
+    border: 4px solid var(--maincolor);
+}
+.vertical{
+    font-size: 45px;
+    writing-mode: vertical-rl;
+}
+
+.top-header{
+    top: 13%;
+    z-index: 1;
+    padding: 48px;
+}
+.top-header-end{
+    top: 13%;
+    z-index: 2;
+    right: 0;
+}
+.top-header-main-photo{
+    top: 12%;
+    right: 0px;
+    z-index: -1;
+    text-align: center;
+}
+.top-header-sec-photo{
+    left: 25%;
+    top: 70%;
+}
+.empty{
+    height: 80px;
+}
+.bottom-header-start p{
+        width: 75%;
+    }
+
+@media screen and (max-width:992px) {
+    .header h1{
+        width: 100%;
+        font-size: 50px;
+    }
+    .top-header-text p:first-of-type{
+        width: 70%;
+    }
+    .top-header .top-header-main-photo {
+        top: 32% ;
+    }
+    .w-80{
+        width: 60%;
+    }
+    .top-header .top-header-sec-photo {
+        left: 25%;
+        top: 86%;
+    }
+    .bottom-header h2{
+        font-size: 30px;
+    }
+    .bottom-header-start p{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .top-header .top-header-main-photo {
+        top: 43% ;
+    }
+}
+@media screen and (max-width:576px) {
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 14px;
+    }
+    .vertical{
+        font-size: 25px;
+    }
+    .top-header{
+        padding: 0;
+    }
+    .top-header-text p:first-of-type {
+        width: 100%; 
+    }
+    .top-header .top-header-main-photo {
+        top: 43%;
+        width: 70%;
+                right: 20%;
+    }
+        .w-80 {
+        width: 70%;
+    }
+    .top-header .top-header-sec-photo {
+        left: 19%;
+        top: 84%;
+    }
+}
+@media screen and (max-width:450px) {
+    .top-header .top-header-main-photo {
+        top: 50%;
+        width: 74%;
+    }
+}
+@media screen and (max-width:450px) {
+    .top-header .top-header-main-photo {
+        top: 50%;
+        width: 74%;
+    }
+}
+@media screen and (max-width:400px) {
+    .top-header .top-header-main-photo {
+        top: 52%;
+        width: 79%;
+        right: 9%;
+    }
+}
+@media screen and (max-width:400px) {
+    .top-header .top-header-main-photo {
+        top: 52%;
+        width: 79%;
+        right: 9%;
+    }
+}
+    
+/* end header*/
+/* start menu */
+.leaf-effect{
+    top: 0px;
+    right: 0px;
+}
+.dish-price{
+    border-bottom: 2px black dashed;
+}
+@media screen and (max-width:992px) {
+    .leaf-effect{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px) {
+    .leaf-effect{
+        width: 80%;
+    }
+}
+
+/*end menu */
+/*start excelant cook*/
+.excelant-cook {
+    z-index: -2;
+}
+.leaf-effect-start{
+    position: absolute;
+    top: 5%;
+    z-index: -1;
+}
+.leaf-effect-end{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: -1;
+}
+@media screen and (max-width:992px) {
+    .leaf-effect-end {
+        bottom: 11%;
+        left: 56%;
+    }
+}
+@media screen and (max-width:768px) {
+    .leaf-effect-end {
+        bottom: 17%;
+        left: 53%;
+    }
+}
+/*
+/*end excelant cook*/
+/*start characteristic*/
+.characteristic h3{
+    font-size: 33px;
+}
+@media screen and (max-width:576px) {
+    .characteristic h3{
+    font-size: 30px;
+}
+}
+/*end characteristic*/
+/* start coming-soon*/
+.coming-soon{
+    background-image: url(./../img/small-parts/comingsoon1.jpg);
+    padding: 200px 150px;
+    background-size: cover;
+    position: relative;
+    
+}
+.coming-soon > * {
+    position: relative;
+    z-index: 2;
+}
+.coming-soon::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 48, 0, 0.8); 
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.coming-soon h2{
+    letter-spacing: 8px;
+}
+.still-time span:first-of-type{
+    font-family: var(--mainfont);
+}
+.still-time span:nth-of-type(2){
+    font-family: var(--secfont);
+}
+.all-still{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    gap: 80px;
+    border-top: dashed 3px white;
+    
+}
+.still-time{
+    width: fit-content;
+}
+.coming-soon .butt:hover{
+    border: black;
+    background-color: var(--seccolor);
+    color: black;
+}
+@media screen and (max-width:992px) {
+    .coming-soon{
+        padding: 80px 0px;
+    
+    }
+    .all-still{
+        gap: 50px;
+    }
+}
+/*end coming-soon*/
+/*start blogs*/
+.blog-details {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+
+.blog-details img{
+    padding-right: 2%;
+}
+.blog-title{
+    border-bottom: dashed black 3px;
+}
+.read-more{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card::after{
+    content: "Fashion";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    background-color: var(--seccolor);
+    width: 150px;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    text-align: center;
+    padding-top: 8px;
+}
+.card-body{
+    padding: 40px;
+}
+@media screen and (max-width:576px) {
+    .card-body {
+    padding: 10px;
+    }
+    .blog-details span{
+        font-size: 12px;
+    }
+}
+
+/*end blogs*/
+/*start blog modal*/
+.blog-modal p{
+    text-align: justify;
+}
+/*end blog modal*/
+/*start reservation*/
+input, select{
+    width: 300px;
+}
+.reservation button{
+    color: white;
+}
+/*end reservation*/
+/* start menu categories*/
+.card-title{
+    top: 20px;
+    left: 20px;
+}
+.card-arrow{
+    top: 35px;
+    right: 40px;
+}
+/* start menu categories*/
+/*start feedback*/
+
+/*start feedback*/
+.carousel-control-next , .carousel-control-prev{
+    top: 365px;
+    height: fit-content;
+    width: fit-content;
+}
+.carousel-control-next {
+    right: 80px;
+}
+.carousel-control-prev{
+    left: 970px;
+}
+.comma-effect {
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+  
+/*start footer*/
+.name-link{
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.Subscribe-field{
+    align-items: center;
+}
+.end-footer{
+    border-top: white dashed 3px;
+}
+@media screen and (max-width:992px) {
+.footer{
+    text-align: center;
+    padding: 0px;
+}
+footer.py-5{
+    padding-top: 0px !important;
+}
+.contant.pt-5{
+    padding-top: 0px !important;
+
+}
+}
+
+/*end footer*/
+
+
+
+
+
+
+

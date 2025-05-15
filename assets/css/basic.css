@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rufina:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --mainfont:Rufina;
+    --secfont:lato;
+    --maincolor:#233000;
+    --seccolor:#5E6600;
+    --ligthgrey:#EBF0E4;
+    --highgrey:#212529;
+}
+.ff-main{
+    font-family: var(--mainfont);
+}
+.ff-sec{
+    font-family: var(--secfont);
+}
+.bg-maincolor{
+    background-color:var(--maincolor);
+}
+.bg-seccolor{
+    background-color:var(--seccolor);
+}
+.bg-gray{
+    background-color:var(--ligthgrey);
+}
+.text-seccolor{
+    color: var(--seccolor);
+}
+.text-highgray{
+    color: var(--highgrey);
+}
+.text-maincolor{
+    color: var(--maincolor);
+}
+h1,h2,h3,h4,h5,h6,span{
+    font-family:var(--mainfont);
+}
+p{
+    font-family:var(--secfont);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+h1{
+    font-size:88px;
+}
+h2{
+    font-size:68px;
+}
+h3{
+    font-size:48px;
+}
+h4{
+    font-size:38;
+}
+h5{
+    font-size:26px;
+}
+p{
+    font-size:18px;
+    font-weight: 500;
+}
+.butt{
+    padding: 15px 35px;
+    border-radius: 0%;
+}
+.butt:hover{
+    background-color:var(--seccolor);
+    border-color: black;
+    border: black 2px solid;
+    font-weight: 500;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.w-65{
+    width: 65%;
+}
+.w-60{
+    width: 60%;
+}
+.w-55{
+    width: 55%;
+}
+.w-40{
+    width: 40%;
+}
+.w-20{
+    width: 20%;
+}
+.w-15{
+    width: 15%;
+}
+.w-10{
+    width: 10%;
+}
+li{
+    font-family: var(--mainfont);
+}
+.d-none{
+    display: none;
+}
+.dot{
+    font-size: 50px;
+}
+
+
+
