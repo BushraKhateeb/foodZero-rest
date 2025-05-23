@@ -433,7 +433,112 @@ input, select{
     top: 0;
     z-index: -1;
 }
-  
+@media screen and (max-width:1385px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 411px;
+    }
+    .carousel-control-prev {
+        left: 850px;
+    } 
+}
+@media screen and (max-width:1216px) {
+      .carousel-control-prev {
+        left: 838px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 404px;
+    }
+        .carousel-control-prev {
+        left: 688px;
+    }
+    .carousel-control-next {
+    right: 41px;
+}
+}
+@media screen and (max-width:1100px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 390px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .w-80{
+        width: 100%;
+    }
+    .fs-1 {
+        font-size: 30px !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 314px;
+    }
+    .carousel-control-prev {
+        left: 651px;
+    }
+}
+@media screen and (max-width:992px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 360px;
+    }
+    .carousel-control-prev {
+        left: 484px;
+    }
+    .carousel-control-next {
+        left: 595px;
+    }
+}
+@media screen and (max-width:768px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 350px;
+    }
+    .carousel-control-next {
+        left: 567px;
+    }
+    .fs-1 {
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width:761px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 350px;
+    }
+    .carousel-control-prev {
+        left: 359px;
+    }
+    .carousel-control-next {
+        left: 418px;
+    }
+    div.container.px-5{
+        padding: 0 !important;
+    }
+    
+}
+@media screen and (max-width:630px) {
+    .carousel-control-next {
+        left: 477px;
+    }
+        .carousel-control-prev {
+        left: 405px;
+    }
+    .fs-1 {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width:576px) {
+    .carousel-control-next, .carousel-control-prev {
+        top: 392px;
+    }
+    .carousel-control-prev {
+        left: 385px;
+    }
+    .carousel-control-next {
+        left: 453px;
+    }
+    .fs-1 {
+        font-size: 18px !important;
+    }
+}
+
 /*start footer*/
 .name-link{
     font-size: 45px;
@@ -456,7 +561,6 @@ footer.py-5{
 }
 .contant.pt-5{
     padding-top: 0px !important;
-
 }
 }
 
