@@ -77,7 +77,7 @@ section.navbar-con
         margin: auto;
     }
     .empty{
-        height: 70px;
+        height: 40px;
     }
     .bages .navbar-nav{
         display: flex;
@@ -86,6 +86,15 @@ section.navbar-con
     }
     h1{
         font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .header .main-contant{
+        align-items: start;
+    }
+    .empty,.empty1{
+        display: none;
     }
 }
 @media screen and (max-width:576px) {
@@ -101,12 +110,27 @@ section.navbar-con
     .contacts{
         align-items: center;
     }
+    .open-date p{
+    font-size: 14px !important;
+}
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .tomato-effect{
+        display: none;
+    }
+    p.w-75{
+        width:100% !important;
+    }
+
 }
 
 .header{
-    background-image: url(../img/blogs/background.png);
+    background-image: url(../img/about/background.png);
     background-size:cover;
-    height: 100vh;
 }
 .reserve .btn{
     padding: 15px 35px;
@@ -121,14 +145,14 @@ section.navbar-con
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    align-content: center;
+    align-items:end;
+    align-content: end;
     flex-wrap: wrap;
 }
 .menu-modal-content{
     position: relative;
     background: url('./../img/small-parts/navigation.png') center/cover no-repeat;
-    height: 100vh;
+    height: 50vh;
 }
 .menu-modal-content::before {
     content: "";
@@ -147,26 +171,52 @@ section.navbar-con
     height: auto;
 }
 /* end header*/
-/*start menu*/
-.dish-price{
-    border-bottom: 3px black dashed;
+/*start our story*/
+.tomato-effect{
+    top: 7.5%;
+    right: 47.4%;
 }
-@media screen and (max-width:1381px) {
-    .text-start.py-5{
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-    }
-    .text-secondary{
-        padding-bottom: 10px !important;
-    }
+/*end our story*/
+/*start team*/
+.empty{
+    width: 100%;
+    height: 300px;
 }
-@media screen and (max-width:1200px) {
-    h3{
-        font-size: 25px;
-    }
+/*end team*/
+/* start process*/
+.empty1{
+    width: 100%;
+    height: 100px;
 }
-/*end menu*/
 
+/*end process*/
+/*start video*/
+.video{
+    background: url("./../img/about/video.png") center/cover no-repeat;
+    position: relative;
+    height: 85vh;
+}
+.video::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 85vh;
+    width: 100%;
+    background-color: var(--maincolor);
+    opacity: 0.7;
+    z-index: 1;
+}
+.video h2,
+.video p,
+.video button{
+    z-index: 2;
+}
+.video .container,
+.rr{
+    height: 85vh;
+}
+/*end video*/
 /*start reservation*/
 input, select{
     width: 300px;
@@ -174,7 +224,24 @@ input, select{
 .reservation button{
     color: white;
 }
+.rosemary1-effect{
+    left: 75%;
+    bottom: 80%;
+}
+.rosemary2-effect{
+    rotate: 250deg;
+    right: 88%;
+    top: 85%;
+}
 /*end reservation*/
+
+
+
+
+
+
+
+
 
 /*start footer*/
 .name-link{
@@ -201,5 +268,3 @@ footer.py-5{
 }
 }
 /*end footer*/
-
-

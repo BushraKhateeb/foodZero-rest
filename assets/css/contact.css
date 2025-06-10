@@ -8,7 +8,7 @@ section.navbar-con
     width: 100%;
 }
 .main-contant{
-    height: 100vh;
+    height: 71vh;
 }
 .navbar-con{
     z-index: 2;
@@ -77,7 +77,7 @@ section.navbar-con
         margin: auto;
     }
     .empty{
-        height: 70px;
+        height: 40px;
     }
     .bages .navbar-nav{
         display: flex;
@@ -86,6 +86,9 @@ section.navbar-con
     }
     h1{
         font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
     }
 }
 @media screen and (max-width:576px) {
@@ -101,12 +104,21 @@ section.navbar-con
     .contacts{
         align-items: center;
     }
+    .open-date p{
+    font-size: 14px !important;
+}
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
 }
 
 .header{
-    background-image: url(../img/blogs/background.png);
+    background-image: url(../img/contact/coverBage.png);
     background-size:cover;
-    height: 100vh;
 }
 .reserve .btn{
     padding: 15px 35px;
@@ -121,14 +133,14 @@ section.navbar-con
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    align-content: center;
+    align-items:start;
+    align-content: start;
     flex-wrap: wrap;
 }
 .menu-modal-content{
     position: relative;
     background: url('./../img/small-parts/navigation.png') center/cover no-repeat;
-    height: 100vh;
+    height: 50vh;
 }
 .menu-modal-content::before {
     content: "";
@@ -146,36 +158,40 @@ section.navbar-con
 .modal-body{
     height: auto;
 }
+.inner{
+    align-items: end;
+    align-content: end;
+    display: flex;
+    justify-content:end;
+    border-bottom: 2px white dashed;
+}
+.open-day p{
+    width: 30%;
+}
+.open-time{
+    display: flex;
+    justify-content: end;
+}
+.open-time p{
+   width: 30%;
+}
+.open-date p{
+    font-size: 21px;
+}
 /* end header*/
-/*start menu*/
-.dish-price{
-    border-bottom: 3px black dashed;
+/*start our info*/
+.orang-effect {
+    right: 41%;
+    top: 5%;
+    z-index: -1;
 }
-@media screen and (max-width:1381px) {
-    .text-start.py-5{
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-    }
-    .text-secondary{
-        padding-bottom: 10px !important;
-    }
+/* end our info*/
+/*start Reservation*/
+.mint-effect {
+    right: 57%;
+    top: 2%;
 }
-@media screen and (max-width:1200px) {
-    h3{
-        font-size: 25px;
-    }
-}
-/*end menu*/
-
-/*start reservation*/
-input, select{
-    width: 300px;
-}
-.reservation button{
-    color: white;
-}
-/*end reservation*/
-
+/*end Reservation*/
 /*start footer*/
 .name-link{
     font-size: 45px;
@@ -201,5 +217,3 @@ footer.py-5{
 }
 }
 /*end footer*/
-
-

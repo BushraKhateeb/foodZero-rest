@@ -7,10 +7,17 @@
 :root{
     --mainfont:Rufina;
     --secfont:lato;
-    --maincolor:#233000;
+    --maincolor:rgb(35, 48, 0);
     --seccolor:#5E6600;
     --ligthgrey:#EBF0E4;
     --highgrey:#212529;
+}
+.form-control:focus {
+  border-color: var(--maincolor);
+  box-shadow: 0 0 0 0.2rem rgba((35,48,0), 0.25);
+}
+::selection{
+    background-color: var(--maincolor);
 }
 .ff-main{
     font-family: var(--mainfont);
@@ -102,6 +109,9 @@ p{
 .w-10{
     width: 10%;
 }
+.w-5{
+    width:5%
+}
 li{
     font-family: var(--mainfont);
 }
@@ -110,6 +120,9 @@ li{
 }
 .dot{
     font-size: 50px;
+}
+.scrolly{
+    background-color:#1a2400;
 }
 
 

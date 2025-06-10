@@ -147,35 +147,104 @@ section.navbar-con
     height: auto;
 }
 /* end header*/
-/*start menu*/
-.dish-price{
-    border-bottom: 3px black dashed;
-}
-@media screen and (max-width:1381px) {
-    .text-start.py-5{
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-    }
-    .text-secondary{
-        padding-bottom: 10px !important;
-    }
-}
-@media screen and (max-width:1200px) {
-    h3{
-        font-size: 25px;
-    }
-}
-/*end menu*/
+/*start blogs*/
+.blog-details {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
 
-/*start reservation*/
-input, select{
-    width: 300px;
+.blog-details img{
+    padding-right: 2%;
 }
-.reservation button{
+.blog-title{
+    border-bottom: dashed black 3px;
+}
+.read-more{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card::after{
+    content: "Fashion";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    background-color: var(--seccolor);
+    width: 150px;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    text-align: center;
+    padding-top: 8px;
+}
+.card-body{
+    padding: 40px;
+}
+@media screen and (max-width:576px) {
+    .card-body {
+    padding: 10px;
+    }
+    .blog-details span{
+        font-size: 12px;
+    }
+}
+
+/*end blogs*/
+/*start blog modal*/
+.blog-modal p{
+    text-align: justify;
+}
+/*end blog modal*/
+/*start pagenation*/
+.pagination button{
+    padding: 10px 20px;
+    border: 0px;
+    background-color: var(--seccolor);
+    font-size: 25px;
+    font-weight: 500;
     color: white;
 }
-/*end reservation*/
+.pagination button:hover{
+    background-color: var(--maincolor);
+    border: 2px black solid;
+    color: black;
+    font-weight: 700;
+}
+button.activebage{
+    background-color: var(--maincolor);
+    border: 2px black solid;
+    color: white;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+@media screen and (max-width:576px) {
+    .pagination{
+        gap: 20px;
+    }
+    .pagination button{
+        padding: 7px 15px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+@media screen and (max-width:576px) {
 
+    .b-first{
+        display: none;
+    }
+    .b-last{
+        display: none;
+    }
+    .pagination{
+        gap: 10px;
+    }
+}
+/*end pagenation*/
 /*start footer*/
 .name-link{
     font-size: 45px;
@@ -201,5 +270,3 @@ footer.py-5{
 }
 }
 /*end footer*/
-
-

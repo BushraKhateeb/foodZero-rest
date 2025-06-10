@@ -8,8 +8,6 @@ window.onscroll=function(){
   }
 }
 
-
-
 const toastTrigger = document.getElementById('liveToastBtn')
 const toastLiveExample = document.getElementById('liveToast')
 if (toastTrigger) {

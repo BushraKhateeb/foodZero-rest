@@ -54,9 +54,7 @@ nav .container{
 .contact p{
     border-bottom: white dashed 2px;
 }
-.scrolly{
-    background-color:#1a2400;
-}
+
 
 @media screen and (max-width:992px) {
     .reserve{
